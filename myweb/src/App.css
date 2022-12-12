@@ -1,38 +1,251 @@
 .App {
-  text-align: center;
+  background: hsla(333, 37%, 46%, 1);
+
+  background: linear-gradient(90deg, hsla(333, 37%, 46%, 1) 0%, hsla(243, 10%, 47%, 1) 50%, hsla(197, 41%, 42%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(333, 37%, 46%, 1) 0%, hsla(243, 10%, 47%, 1) 50%, hsla(197, 41%, 42%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(333, 37%, 46%, 1) 0%, hsla(243, 10%, 47%, 1) 50%, hsla(197, 41%, 42%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A04970", endColorstr="#6D6C83", GradientType=1);
+  margin: 0;
+  overflow-x: hidden;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.one{
+  background: hsla(23, 100%, 76%, 1);
+
+  background: linear-gradient(90deg, hsla(23, 100%, 76%, 1) 1%, hsla(360, 86%, 67%, 1) 44%, hsla(333, 37%, 46%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(23, 100%, 76%, 1) 1%, hsla(360, 86%, 67%, 1) 44%, hsla(333, 37%, 46%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(23, 100%, 76%, 1) 1%, hsla(360, 86%, 67%, 1) 44%, hsla(333, 37%, 46%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFB384", endColorstr="#F36364", GradientType=1 );
+
+height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.two{
+  background: hsla(23, 100%, 25%, 1);
+
+background: linear-gradient(90deg, hsla(23, 100%, 25%, 1) 0%, hsla(23, 76%, 51%, 1) 41%, hsla(23, 100%, 76%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(23, 100%, 25%, 1) 0%, hsla(23, 76%, 51%, 1) 41%, hsla(23, 100%, 76%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(23, 100%, 25%, 1) 0%, hsla(23, 76%, 51%, 1) 41%, hsla(23, 100%, 76%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#823200", endColorstr="#E16C24", GradientType=1 );
+height: 100vh;
 }
 
+.three{
+  background: hsla(0, 0%, 0%, 1);
+
+background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(23, 100%, 12%, 1) 51%, hsla(23, 100%, 25%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(23, 100%, 12%, 1) 51%, hsla(23, 100%, 25%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(23, 100%, 12%, 1) 51%, hsla(23, 100%, 25%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#3B1700", GradientType=1 );
+
+height: 100vh;
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation .2s infinite;
+  opacity: .9;
+  visibility: visible;
+}
+
+@keyframes bg-animation {
+    0% { transform: translate(0,0) }
+    10% { transform: translate(-5%,-5%) }
+    20% { transform: translate(-10%,5%) }
+    30% { transform: translate(5%,-10%) }
+    40% { transform: translate(-5%,15%) }
+    50% { transform: translate(-10%,5%) }
+    60% { transform: translate(15%,0) }
+    70% { transform: translate(0,10%) }
+    80% { transform: translate(-15%,0) }
+    90% { transform: translate(10%,5%) }
+    100% { transform: translate(5%,0) }
+}
+
+
+.outlineWrapper{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(32, 30, 30);
+  height: 10vh;
+  justify-content: center;
+  
+}
+
+.navWrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  padding: 2vw;
+  gap: 2vw;
+}
+
+.empty{
+  border-right: 1px solid rgb(32, 30, 30);;
+}
+
+.empty1{
+  border-left: 1px solid rgb(32, 30, 30);;
+}
+
+.contactWrapper{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-left: 1px solid rgb(32, 30, 30);
 }
 
-.App-link {
-  color: #61dafb;
+.nameWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20vw;
+  padding-left: 3vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contact{
+  padding: 4.05vw
+}
+/*.outline{
+  display: flex;
+  flex-direction: row;
+  border-color: rgb(32, 30, 30);
+  border: 1px;
+  border-style: solid;
+  height: 10vh;
+  width: 100vw;
+  border-top: none;
+}*/
+
+.sec1Wrapper{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(32, 30, 30);
+  height: 80vh;
+  justify-content: center;
+}
+.empty2{
+border-right: 1px solid rgb(32, 30, 30);
+}
+/*
+.empty3{
+  border-left: 1px solid rgb(32, 30, 30); }
+  */
+
+  .wrap1{
+    display: flex;
+    flex-direction: column;
+    height: 41.8vh;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .wrap2{
+    width: 50.2vw;
+    display: flex;
+    flex-direction: row;
   }
+
+  .wrap3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+
+  .wrap4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1{
+    font-size: 5vw;
+    border-bottom:  1px solid rgb(32, 30, 30);
+    width: 40vw;
+    text-align: center;
+
+  }
+
+  .box2{
+    font-size: 5vw;
+    border-bottom:  1px solid rgb(32, 30, 30);
+    width: 40vw;
+    text-align: center;
+
+
+  }
+
+  .box4{
+    border-left:  1px solid rgb(32, 30, 30);
+  }
+
+  .box3{
+    text-align: center;
+    font-size: 5vw;
+    width: 40vw;
+  }
+  
+  .box4{
+    border-right:  1px solid rgb(32, 30, 30);
+    width: 10.1vw;
+    height: 42vh;
+  }
+
+  .box6{
+    border-top: 1px solid rgb(32, 30, 30);
+    border-right: 1px solid rgb(32, 30, 30);
+    height: 38.2vh;
+  }
+
+  .wrap0{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .vectors{
+    width: 11.9vw;
+  }
+  
+
+@media screen and (max-width: 480px) {
+
+ 
+  .nameWrapper{
+    padding-right: none;
+    padding-left: none;
+  }
+  
+  .name{
+    font-size: 2vw;
+  }
+  
 }
