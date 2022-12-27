@@ -1,55 +1,151 @@
+@font-face {
+  font-family: "Hybrid";
+  src: local("Hybrid_b"), url(./fonts/Hybrid_b.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sofachrome";
+  src: local("Sofachrome"), url(./fonts/sofachrome_rg.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Square";
+  src: local("Square"), url(./fonts/Square.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Machina";
+  src: local("Machina"), url(./fonts/Machina.otf) format("opentype");
+}
+
+
+@font-face {
+  font-family: "Opiated";
+  src: local("Opiated"), url(./fonts/opiated.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Yapari";
+  src: local("Yapari"),
+    url(./fonts/YapariTrial-ExtraBoldWide.ttf) format("truetype");
+}
+@font-face {
+  font-family: "YapariUltra";
+  src: local("YapariUltra"),
+    url(./fonts/YapariTrial-Ultra.ttf) format("truetype");
+}
+
 .App {
   background: hsla(333, 37%, 46%, 1);
 
-  background: linear-gradient(90deg, hsla(333, 37%, 46%, 1) 0%, hsla(243, 10%, 47%, 1) 50%, hsla(197, 41%, 42%, 1) 100%);
-  
-  background: -moz-linear-gradient(90deg, hsla(333, 37%, 46%, 1) 0%, hsla(243, 10%, 47%, 1) 50%, hsla(197, 41%, 42%, 1) 100%);
-  
-  background: -webkit-linear-gradient(90deg, hsla(333, 37%, 46%, 1) 0%, hsla(243, 10%, 47%, 1) 50%, hsla(197, 41%, 42%, 1) 100%);
-  
+  background: linear-gradient(
+    90deg,
+    hsla(333, 37%, 46%, 1) 0%,
+    hsla(243, 10%, 47%, 1) 50%,
+    hsla(197, 41%, 42%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(333, 37%, 46%, 1) 0%,
+    hsla(243, 10%, 47%, 1) 50%,
+    hsla(197, 41%, 42%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(333, 37%, 46%, 1) 0%,
+    hsla(243, 10%, 47%, 1) 50%,
+    hsla(197, 41%, 42%, 1) 100%
+  );
+
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A04970", endColorstr="#6D6C83", GradientType=1);
   margin: 0;
   overflow-x: hidden;
   height: 100vh;
 }
 
-.one{
+.one {
   background: hsla(23, 100%, 76%, 1);
 
-  background: linear-gradient(90deg, hsla(23, 100%, 76%, 1) 1%, hsla(360, 86%, 67%, 1) 44%, hsla(333, 37%, 46%, 1) 100%);
-  
-  background: -moz-linear-gradient(90deg, hsla(23, 100%, 76%, 1) 1%, hsla(360, 86%, 67%, 1) 44%, hsla(333, 37%, 46%, 1) 100%);
-  
-  background: -webkit-linear-gradient(90deg, hsla(23, 100%, 76%, 1) 1%, hsla(360, 86%, 67%, 1) 44%, hsla(333, 37%, 46%, 1) 100%);
-  
+  background: linear-gradient(
+    90deg,
+    hsla(23, 100%, 76%, 1) 1%,
+    hsla(360, 86%, 67%, 1) 44%,
+    hsla(333, 37%, 46%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(23, 100%, 76%, 1) 1%,
+    hsla(360, 86%, 67%, 1) 44%,
+    hsla(333, 37%, 46%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(23, 100%, 76%, 1) 1%,
+    hsla(360, 86%, 67%, 1) 44%,
+    hsla(333, 37%, 46%, 1) 100%
+  );
+
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFB384", endColorstr="#F36364", GradientType=1 );
 
-height: 100vh;
+  height: 100vh;
 }
 
-.two{
+.two {
   background: hsla(23, 100%, 25%, 1);
 
-background: linear-gradient(90deg, hsla(23, 100%, 25%, 1) 0%, hsla(23, 76%, 51%, 1) 41%, hsla(23, 100%, 76%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(23, 100%, 25%, 1) 0%,
+    hsla(23, 76%, 51%, 1) 41%,
+    hsla(23, 100%, 76%, 1) 100%
+  );
 
-background: -moz-linear-gradient(90deg, hsla(23, 100%, 25%, 1) 0%, hsla(23, 76%, 51%, 1) 41%, hsla(23, 100%, 76%, 1) 100%);
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(23, 100%, 25%, 1) 0%,
+    hsla(23, 76%, 51%, 1) 41%,
+    hsla(23, 100%, 76%, 1) 100%
+  );
 
-background: -webkit-linear-gradient(90deg, hsla(23, 100%, 25%, 1) 0%, hsla(23, 76%, 51%, 1) 41%, hsla(23, 100%, 76%, 1) 100%);
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(23, 100%, 25%, 1) 0%,
+    hsla(23, 76%, 51%, 1) 41%,
+    hsla(23, 100%, 76%, 1) 100%
+  );
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#823200", endColorstr="#E16C24", GradientType=1 );
-height: 100vh;
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#823200", endColorstr="#E16C24", GradientType=1 );
+  height: 100vh;
 }
 
-.three{
-  background: hsla(0, 0%, 0%, 1);
+.three {
+  background: hsla(44, 40%, 58%, 1);
 
-background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(23, 100%, 12%, 1) 51%, hsla(23, 100%, 25%, 1) 100%);
+background: linear-gradient(90deg, hsla(44, 40%, 58%, 1) 0%, hsla(23, 100%, 25%, 1) 100%);
 
-background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(23, 100%, 12%, 1) 51%, hsla(23, 100%, 25%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(44, 40%, 58%, 1) 0%, hsla(23, 100%, 25%, 1) 100%);
 
-background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(23, 100%, 12%, 1) 51%, hsla(23, 100%, 25%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(44, 40%, 58%, 1) 0%, hsla(23, 100%, 25%, 1) 100%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#3B1700", GradientType=1 );
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BFA869", endColorstr="#803100", GradientType=1 );
+
+  height: 100vh;
+}
+
+.four{
+  background: hsla(0, 0%, 77%, 1);
+
+background: linear-gradient(90deg, hsla(0, 0%, 77%, 1) 0%, hsla(44, 40%, 58%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(0, 0%, 77%, 1) 0%, hsla(44, 40%, 58%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(0, 0%, 77%, 1) 0%, hsla(44, 40%, 58%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C4C4C4", endColorstr="#BFA869", GradientType=1 );
 
 height: 100vh;
 }
@@ -61,191 +157,1603 @@ height: 100vh;
   bottom: -50%;
   width: 200%;
   height: 200vh;
-  background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background: transparent
+    url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
   background-repeat: repeat;
-  animation: bg-animation .2s infinite;
-  opacity: .9;
+  animation: bg-animation 0.2s infinite;
+  opacity: 0.9;
   visibility: visible;
 }
 
 @keyframes bg-animation {
-    0% { transform: translate(0,0) }
-    10% { transform: translate(-5%,-5%) }
-    20% { transform: translate(-10%,5%) }
-    30% { transform: translate(5%,-10%) }
-    40% { transform: translate(-5%,15%) }
-    50% { transform: translate(-10%,5%) }
-    60% { transform: translate(15%,0) }
-    70% { transform: translate(0,10%) }
-    80% { transform: translate(-15%,0) }
-    90% { transform: translate(10%,5%) }
-    100% { transform: translate(5%,0) }
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5%, -5%);
+  }
+  20% {
+    transform: translate(-10%, 5%);
+  }
+  30% {
+    transform: translate(5%, -10%);
+  }
+  40% {
+    transform: translate(-5%, 15%);
+  }
+  50% {
+    transform: translate(-10%, 5%);
+  }
+  60% {
+    transform: translate(15%, 0);
+  }
+  70% {
+    transform: translate(0, 10%);
+  }
+  80% {
+    transform: translate(-15%, 0);
+  }
+  90% {
+    transform: translate(10%, 5%);
+  }
+  100% {
+    transform: translate(5%, 0);
+  }
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Empty1 Empty1 Nav Nav Nav Nav Nav Nav Nav Nav contact contact Empty2 Empty2"
+    ". . Text1 Text1 Text1 Text1 Text1 Text1 Text4 Text4 Text5 Text5 . ."
+    ". . Text1 Text1 Text1 Text1 Text1 Text1 Text4 Text4 Text5 Text5 . ."
+    ". . Text2 Text2 Text2 Text2 Text2 Text2 Text4 Text4 Text5 Text5 . ."
+    ". . Text2 Text2 Text2 Text2 Text2 Text2 Text4 Text4 Text5 Text5 . ."
+    ". . Text3 Text3 Text3 Text3 Text3 Text3 Text4 Text4 Text5 Text5 . ."
+    ". . Text3 Text3 Text3 Text3 Text3 Text3 Text4 Text4 Text5 Text5 . ."
+    ". . Text6 Text6 Text6 Text6 Text6 Text6 Text6 Text6 Text5 Text5 . ."
+    ". . Text6 Text6 Text6 Text6 Text6 Text6 Text6 Text6 Text5 Text5 . ."
+    "Empty3 Empty3 Text6 Text6 Text6 Text6 Text6 Text6 Text6 Text6 Text5 Text5 Empty4 Empty4"
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+  height: 140vh;
+}
 
-.outlineWrapper{
+.Empty1 {
+  grid-area: Empty1;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+}
+
+.Nav {
+  grid-area: Nav;
+  border: 1px solid black;
+  border-top: none;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid rgb(32, 30, 30);
-  height: 10vh;
+  align-items: center;
   justify-content: center;
-  
+  flex-shrink: 1;
+  z-index: 9999999;
 }
 
-.navWrapper{
+.Contact {
+  grid-area: contact;
   display: flex;
-  flex-direction: row;
-  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Machina';
+}
+
+.Empty2 {
+  grid-area: Empty2;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+}
+
+.Text1 {
+  grid-area: Text1;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.Text2 {
+  grid-area: Text2;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+.Text3 {
+  grid-area: Text3;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.Text4 {
+  grid-area: Text4;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  overflow: hidden;
+}
+
+.Text5 {
+  grid-area: Text5;
+  border: 1px solid black;
+  display: flex;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
 }
 
-.nav{
+.Text6 {
+  grid-area: Text6;
+  border: 1px solid black;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  word-break: break-all;
+}
+
+.Empty3 {
+  grid-area: Empty3;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+}
+
+.Empty4 {
+  grid-area: Empty4;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Empty1111 Empty1111 Text7 Text7 Text7 Text7 Text7 Text8 Text8 Text8 Text8 Text8 Empty2111 Empty2111"
+    ". . Text7 Text7 Text7 Text7 Text7 Text8 Text8 Text8 Text8 Text8 . ."
+    ". . Text7 Text7 Text7 Text7 Text7 Text8 Text8 Text8 Text8 Text8 . ."
+    ". . Text7 Text7 Text7 Text7 Text7 Text8 Text8 Text8 Text8 Text8 . ."
+    ". . Text7 Text7 Text7 Text7 Text7 Text8 Text8 Text8 Text8 Text8 . ."
+    ". . Text7 Text7 Text7 Text7 Text7 Text8 Text8 Text8 Text8 Text8 . ."
+    ". . Text7 Text7 Text7 Text7 Text7 Text8 Text8 Text8 Text8 Text8 . ."
+    ". . Text7 Text7 Text7 Text7 Text7 Text8 Text8 Text8 Text8 Text8 . ."
+    "Empty3111 Empty3111 Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Empty4111 Empty4111"
+    "Empty3111 Empty3111 Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Empty4111 Empty4111"
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+  height: 140vh;
+}
+
+.Empty1111 {
+  grid-area: Empty1111;
+  border: none;
+}
+
+.Empty2111 {
+  grid-area: Empty2111;
+  border: none;
+}
+
+.Empty3111 {
+  grid-area: Empty3111;
+  border: 1px solid black;
+}
+
+.Empty4111 {
+  grid-area: Empty4111;
+  border: 1px solid black;
+}
+
+.Text7 {
+  grid-area: Text7;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2vw;
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-family: 'Machina';
+}
+
+.Text8 {
+  grid-area: Text8;
+  border: 1px solid black;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.Portfolio {
+  grid-area: Portfolio;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . Box1 Box1 Box1 Box1 Box1 Box2 Box2 Box2 Box2 Box2 . ."
+    ". . Box1 Box1 Box1 Box1 Box1 Box2 Box2 Box2 Box2 Box2 . ."
+    ". . Box1 Box1 Box1 Box1 Box1 Box2 Box2 Box2 Box2 Box2 . ."
+    ". . Box1 Box1 Box1 Box1 Box1 Box2 Box2 Box2 Box2 Box2 . ."
+    ". . Box3 Box3 Box3 Box3 Box3 Box4 Box4 Box4 Box4 Box4 . ."
+    ". . Box3 Box3 Box3 Box3 Box3 Box4 Box4 Box4 Box4 Box4 . ."
+    ". . Box3 Box3 Box3 Box3 Box3 Box4 Box4 Box4 Box4 Box4 . ."
+    ". . Box3 Box3 Box3 Box3 Box3 Box4 Box4 Box4 Box4 Box4 . ."
+    "Empty5111 Empty5111 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Empty6111 Empty6111"
+    "Empty5111 Empty5111 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Contact1 Empty6111 Empty6111"
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+  height: 140vh;
+}
+
+.mobilework {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 . ."
+    ". . mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 . ."
+    ". . mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 mobilestep1 . ."
+    ". . mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 . ."
+    ". . mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 . ."
+    ". . mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 mobilestep2 . ."
+    ". . mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 . ."
+    ". . mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 . ."
+    ". . mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 mobilestep3 . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+    display: none;
+    height: 155.8vh;
+}
+
+.mobilestep1 { grid-area: mobilestep1;
+border: 1px solid black;
+}
+
+.mobilestep2 { grid-area: mobilestep2;
+  border: 1px solid black;
+}
+
+.mobilestep3 { grid-area: mobilestep3;
+  border: 1px solid black;
+}
+
+
+.Empty5111 {
+  grid-area: Empty5111;
+  border: 1px solid black;
+  border-right: none;
+}
+
+.Empty6111 {
+  grid-area: Empty6111;
+  border: 1px solid black;
+  border-left: none;
+}
+
+.Contact1 {
+  grid-area: Contact1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  border-bottom: none;
+  overflow: hidden;
+}
+
+.Box1 {
+  grid-area: Box1;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-family: 'Machina';
+}
+
+.Box3 {
+  grid-area: Box3;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-family: 'Machina';
+}
+
+.Box2 {
+  grid-area: Box2;
+  border: 1px solid black;
+  border-top: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-family: 'Machina';
+}
+
+.Box4 {
+  grid-area: Box4;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-family: 'Machina';
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . Text13 Text13 Text13 Text13 Text13 Text14 Text14 Text14 Text14 Text14 . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+  height: 80vh;
+}
+
+.container44 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . Box11 Box11 Box11 Box11 Box11 Box11 Box11 Box11 Box11 Box11 . ."
+    ". . Box11 Box11 Box11 Box11 Box11 Box11 Box11 Box11 Box11 Box11 . ."
+    ". . Box12 Box12 Box12 Box12 Box12 Box12 Box12 Box12 Box12 Box12 . ."
+    ". . Box12 Box12 Box12 Box12 Box12 Box12 Box12 Box12 Box12 Box12 . ."
+    ". . Box13 Box13 Box13 Box13 Box13 Box13 Box13 Box13 Box13 Box13 . ."
+    ". . Box13 Box13 Box13 Box13 Box13 Box13 Box13 Box13 Box13 Box13 . ."
+    ". . Box14 Box14 Box14 Box14 Box14 Box14 Box14 Box14 Box14 Box14 . ."
+    ". . Box14 Box14 Box14 Box14 Box14 Box14 Box14 Box14 Box14 Box14 . ."
+    "Empty30 Empty30 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Empty40 Empty40"
+    "Empty30 Empty30 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Contact40 Empty40 Empty40"
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+    height: 140vh;
+}
+
+.Box11 { grid-area: Box11;
+  border: 1px solid black;
+  border-bottom: none;
+ }
+
+.Box12 { grid-area: Box12;
+  border: 1px solid black;
+  border-bottom: none;
+
+ }
+
+.Box13 { grid-area: Box13;
+  border: 1px solid black;
+  border-bottom: none;
+
+ }
+
+.Box14 { grid-area: Box14; 
+border: 1px solid black;
+border-bottom: none;
+}
+
+.Empty30 { grid-area: Empty30;
+  border: 1px solid black;
+  border-right: none;
+  border-left: none;
+ }
+
+.Contact40 { grid-area: Contact40;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  
+ }
+
+.Empty40 { grid-area: Empty40;
+  border: 1px solid black;
+  border-right: none;
+  border-left: none;
+ }
+
+
+
+
+
+.Text13 {
+  grid-area: Text13;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+}
+
+.Text14 {
+  grid-area: Text14;
+  border: 1px solid black;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Empty11 Empty11 Nav1 Nav1 Nav1 Nav1 Nav1 Nav1 Nav1 Nav1 Nav1 Nav1 Empty12 Empty12"
+    ". . Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 . ."
+    ". . Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 Text1-1 . ."
+    ". . Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 . ."
+    ". . Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 Text1-2 . ."
+    ". . Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 . ."
+    ". . Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 Text1-3 . ."
+    ". . Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 . ."
+    ". . Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 . ."
+    ". . Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 Text1-4 . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+  height: 140vh;
+  display: none;
+}
+
+.Empty11 {
+  grid-area: Empty11;
+  border: 1px solid black;
+}
+
+.Nav1 {
+  grid-area: Nav1;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.Empty12 {
+  grid-area: Empty12;
+  border: 1px solid black;
+}
+
+.Text1-4 {
+  grid-area: Text1-4;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Text1-1 {
+  grid-area: Text1-1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Text1-2 {
+  grid-area: Text1-2;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Text1-3 {
+  grid-area: Text1-3;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Empty13 Empty13 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Empty12 Empty12"
+    ". . Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 . ."
+    ". . Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 . ."
+    ". . Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 . ."
+    ". . Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 Text1-5 . ."
+    ". . Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 . ."
+    ". . Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 . ."
+    ". . Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 . ."
+    ". . Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 . ."
+    ". . Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 Text1-6 . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+  display: none;
+  height: 140vh;
+}
+
+.Empty13 {
+  grid-area: Empty13;
+  border: 1px solid black;
+}
+
+.Empty12 {
+  grid-area: Empty12;
+  border: 1px solid black;
+}
+
+.Text1-5 {
+  grid-area: Text1-5;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 3vw;
+  padding-top: 4vh;
+}
+
+.Text1-6 {
+  grid-area: Text1-6;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Empty14 Empty14 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Empty15 Empty15"
+    "Empty14 Empty14 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Empty15 Empty15"
+    "Empty14 Empty14 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Text1-7 Empty15 Empty15"
+    ". . Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 . ."
+    ". . Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 . ."
+    ". . Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 Text1-8 . ."
+    ". . Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 . ."
+    ". . Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 . ."
+    ". . Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 Text1-9 . ."
+    ". . Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 . ."
+    ". . Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 . ."
+    ". . Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 Text1-10 . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+  display: none;
+  height: 116.8vh;
+}
+
+.Text1-7 {
+  grid-area: Text1-7;
+  border: 1px solid black;
+}
+
+.Text1-8 {
+  grid-area: Text1-8;
+  border: 1px solid black;
+}
+
+.Text1-9 {
+  grid-area: Text1-9;
+  border: 1px solid black;
+}
+
+.Text1-10 {
+  grid-area: Text1-10;
+  border: 1px solid black;
+}
+
+.Empty14 {
+  grid-area: Empty14;
+  border: 1px solid black;
+}
+
+.Empty15 {
+  grid-area: Empty15;
+  border: 1px solid black;
+}
+
+.container7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Empty16 Empty16 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Empty17 Empty17"
+    "Empty16 Empty16 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Text1-11 Empty17 Empty17"
+    ". . Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 . ."
+    ". . Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 . ."
+    ". . Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 . ."
+    ". . Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 Text1-12 . ."
+    ". . Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 . ."
+    ". . Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 . ."
+    ". . Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 . ."
+    ". . Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 . ."
+    ". . Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 . ."
+    ". . Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 Text1-13 . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+  display: none;
+  height: 100vh;
+}
+
+.Empty16 {
+  grid-area: Empty16;
+  border: 1px solid black;
+}
+
+.Text1-11 {
+  grid-area: Text1-11;
+  border: 1px solid black;
+}
+
+.Empty17 {
+  grid-area: Empty17;
+  border: 1px solid black;
+}
+
+.Text1-12 {
+  grid-area: Text1-12;
+  border: 1px solid black;
+}
+
+.Text1-13 {
+  grid-area: Text1-13;
+  border: 1px solid black;
+}
+
+
+.mobile3 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "mobileempty1 mobileempty1 mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobileempty2 mobileempty2"
+    "mobileempty1 mobileempty1 mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobiletitle mobileempty2 mobileempty2"
+    ". . mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 . ."
+    ". . mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 . ."
+    ". . mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 mobiletext1 . ."
+    ". . mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 . ."
+    ". . mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 . ."
+    ". . mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 mobiletext2 . ."
+    "mobileempty3 mobileempty3 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobileempty4 mobileempty4"
+    "mobileempty3 mobileempty3 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobiletitle2 mobileempty4 mobileempty4"
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+    display: none;
+    height: 140vh;
+}
+
+.mobileempty1 { grid-area: mobileempty1;
+border: 1px solid black; }
+
+.mobileempty2 { grid-area: mobileempty2; }
+
+.mobiletext1 { grid-area: mobiletext1; }
+
+.mobiletext2 { grid-area: mobiletext2; }
+
+.mobiletitle2 { grid-area: mobiletitle2;
+display: flex;
+justify-content: center;
+align-items: center; }
+
+.mobileempty3 { grid-area: mobileempty3; }
+
+.mobileempty4 { grid-area: mobileempty4; }
+
+.mobileempty1 { grid-area: mobileempty1;
+border: 1px solid black; }
+
+.mobiletitle { grid-area: mobiletitle;
+  border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center; }
+
+.mobileempty2 { grid-area: mobileempty2; 
+  border: 1px solid black; }
+
+.mobiletext1 { grid-area: mobiletext1;
+  border: 1px solid black; 
+display: flex;
+flex-direction: row; }
+
+.mobiletext2 { grid-area: mobiletext2;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;   }
+
+.mobiletext3 { grid-area: mobiletext3;
+  border: 1px solid black;  }
+
+.mobiletext4 { grid-area: mobiletext4;
+  border: 1px solid black;  }
+
+.mobileempty3 { grid-area: mobileempty3;
+  border: 1px solid black;  }
+
+.mobiletitle2 { grid-area: mobiletitle2;
+  border: 1px solid black;  }
+
+.mobileempty4 { grid-area: mobileempty4;
+  border: 1px solid black;  }
+
+@media screen and (max-width: 480px) {
+  .container4 {
+    display: grid;
+  }
+  .Empty11 {
+    border-top: none;
+    border-left: none;
+  }
+
+  .Empty14 {
+    border-left: none;
+  }
+  .Empty15 {
+    border-right: none;
+  }
+
+  .Empty16 {
+    border-left: none;
+  }
+
+  .Empty17 {
+    border-right: none;
+  }
+
+  .Text1-12 {
+    border-bottom: none;
+  }
+  .container4 .Empty12 {
+    border-top: none;
+    border-right: none;
+  }
+
+  .container5 .Empty12 {
+    border-left: none;
+    border-bottom: none;
+  }
+  .container5 .Empty13 {
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .Text1-5 {
+    border-bottom: none;
+    font-family: 'Machina';
+  }
+  .Text1-6 {
+    border-bottom: none;
+  }
+
+  .Text1-7 {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  .Text1-8 {
+    border-bottom: none;
+  }
+  .Text1-9 {
+    border-bottom: none;
+  }
+
+  .Text1-11 {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  .Nav1 {
+    border: none;
+  }
+
+  .Contact1 {
+    display: none;
+  }
+
+  .Text1-1 {
+    border-bottom: none;
+  }
+  .Text1-2 {
+    border-bottom: none;
+  }
+  .Text1-3 {
+    border-bottom: none;
+  }
+  .Text1-4 {
+    border-bottom: none;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .container1 {
+    display: none;
+  }
+  .container5 {
+    display: grid;
+  }
+  .container2 {
+    display: none;
+  }
+  .container3 {
+    display: none;
+  }
+  .container6 {
+    display: grid;
+  }
+
+  .container7 {
+    display: grid;
+  }
+
+  .choiceWrapper4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2vw;
+    
+  }
+
+  .choice4 {
+    font-weight: bold;
+    display: flex;
+    font-family: 'Machina';
+    position: absolute;
+    z-index: 9999999;
+  }
+
+  .text1text4 {
+    font-family: "Yapari";
+    font-size: 4vh;
+  }
+
+  .text2text4 {
+    font-family: "Yapari";
+    font-size: 3.8vh;
+  }
+  .text3text4 {
+    font-family: "Yapari";
+    font-size: 3.6vh;
+  }
+
+  .text4text4 {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2vh;
+    font-family: 'Machina';
+  }
+
+  .vector4 {
+    height: 13vh;
+  }
+  .me5 {
+    width: 120%;
+  }
+
+  .text5text5 {
+    font-weight: bold;
+    font-size: 3vh;
+  }
+
+  .text5cont {
+    padding-right: 4vw;
+  }
+
+  .container44{
+    display: none;
+  }
+
+  .container7{
+    display: grid;
+  }
+
+  .mobile3{
+    display: grid;
+  }
+
+  .four{
+    height: 120vh;
+  }
+
+  .mobileportfoliotext{
+    font-family: 'Yapari';
+    font-size: 3vh;
+  }
+
+  .mobileportfolioWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobileempty1{
+    border-left: none;
+    border-right: none;
+  }
+
+  .mobileempty2{
+    border-right: none;
+    border-left: none;
+  }
+
+  .mobiletitle{
+    border-bottom: none;
+  }
+
+  .mobiletext1{
+    border-bottom: none;
+  }
+
+  .mobiletext2{
+    border-bottom: none;
+  }
+
+  .mobileempty3{
+    border-left: none;
+    border-right: none;
+  }
+
+  .mobileempty4{
+    border-left: none;
+    border-right: none;
+  }
+
+  .mobileprocesstext{
+    font-family: 'Yapari';
+    font-size: 3vh;
+    text-align: center;
+  }
+
+  .mobileleft{
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    padding-left: 3vw;
+    padding-top: 2vh;
+    font-family: 'Machina';
+  }
+
+  .mobileright{
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    padding-top: .5vh;
+  }
+
+  .mobileimg{
+    padding-top: 2vh;
+    height: 2.5vh;
+    width: 2.5vh;
+    padding-left: 3vw;
+  }
+
+  .mobileyear{
+    font-family: 'Machina';
+    padding-right: 3vw;
+  }
+
+  .porttitle{
+    font-weight: normal;
+    font-size: 3vh;
+    font-family: 'Machina';
+  }
+
+
+  .choice4{
+    position: relative;
+  }
+  
+  .contacttextmobile{
+    font-family: 'Yapari';
+    font-size: 3vh;
+  }
+
+  .Text1-11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .Text1-13{
+    display: flex;
+    justify-content: center;
+  }
+  .formwrap1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+position: relative;
+z-index: 9999999;
+  }
+
+  .form{
+    gap: 5vh;
+  }
+
+  .emailname1{
+    width: 50vw;
+    height: 5vh;
+border: 1px solid black;
+border-top: none;
+border-left: none;
+border-right: none;
+background-color: transparent;
+outline: none;
+font-family: 'Machina';
+  }
+
+  .email1{
+    width: 50vw;
+    height: 5vh;
+border: 1px solid black;
+border-top: none;
+border-left: none;
+border-right: none;
+background-color: transparent;
+outline: none;
+font-family: 'Machina';
+  }
+
+  .emailmessage1{
+    width: 50vw;
+    height: 5vh;
+border: 1px solid black;
+border-top: none;
+border-left: none;
+border-right: none;
+background-color: transparent;
+outline: none;
+font-family: 'Machina';
+  }
+
+  .submit1{
+    background-color: transparent;
+border: 1px solid black;
+border-radius: 3px;
+height: 4vh;
+width: 20vw;
+color: black;
+font-family: 'Machina';
+font-weight: normal;
+  }
+
+  .form1{
+    display: flex;
+flex-direction: column;
+gap: 5vh;
+justify-content: center;
+align-items: center;
+  }
+
+  .mobilecontacttitle{
+    font-weight: bold;
+    font-size: 2.5vh;
+    text-align: center;
+  }
+
+  .mobilecontactwrapper1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Text1-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Machina';
+  }
+
+  .mobilework{
+    display: grid;
+  }
+
+  .mobilestep1{
+    border-top: none;
+    
+  }
+
+  .mobilestep2{
+    border-top: none;
+  }
+
+  .mobilestep3{
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .step1wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    gap: 2vh;
+    font-family: 'Machina';
+    
+  }
+
+  .step1mobile{
+    font-weight: bold;
+    font-size: 2.5vh;
+    font-family: 'Machina';
+
+  }
+
+}
+
+.navWrapper {
   display: flex;
   flex-direction: row;
-  padding: 2vw;
+  flex-wrap: wrap;
+  gap: 5vw;
+  font-family: 'Machina';
+}
+
+.name {
+  padding-left: 2vw;
+  font-weight: bold;
+}
+
+.vector1 {
+  height: 40vh;
+  width: 3vw;
+}
+
+.vector2 {
+  height: 7vh;
+}
+
+.Text4Wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+  justify-content: flex-start;
+  padding: 3vh;
+}
+
+.text4text {
+  height: 35vh;
+  writing-mode: vertical-rl;
+  text-align: left;
+  font-size: 2vh;
+  font-weight: bold;
+  font-family: 'Machina';
+}
+.Text4Wrapper2 {
+  display: flex;
+  padding: 2vh;
+  justify-content: center;
+  flex-shrink: 1;
+}
+
+.Text5Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vector3 {
+  height: 95vh;
+}
+
+.barcode {
+  width: 55vw;
+  height: 8vh;
+}
+
+.Text6Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 2vw;
 }
 
-.empty{
-  border-right: 1px solid rgb(32, 30, 30);;
+.linkWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 4vw;
+  font-family: 'Machina';
 }
 
-.empty1{
-  border-left: 1px solid rgb(32, 30, 30);;
+.contactText {
+  font-weight: bold;
+}
+
+.text1text {
+  font-family: "YapariUltra";
+  font-size: 8vh;
+  font-weight: bold;
+  padding-left: 1vw;
+}
+
+.text2text {
+  font-family: "YapariUltra";
+  font-size: 8vh;
+  font-weight: bold;
+  padding-left: 1vw;
+}
+
+.text3text {
+  font-family: "YapariUltra";
+  font-size: 8vh;
+  font-weight: bold;
+  padding-left: 1vw;
+}
+
+.me {
+  padding-top: 10vh;
+  width: 100%;
+  min-width: 120%;
+  min-height: 100%;
+}
+
+.text7text {
+  font-weight: bold;
+  font-family: 'Yapari';
+  font-size: 5vh;
+  padding-top: 4vh;
+}
+
+.text7cont {
+  padding-right: 3vw;
+  font-size: 2vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  z-index: 9999999;
+}
+
+.portfolioText{
+  font-weight: bold;
+  font-size: 5vh;
+  font-family: 'Yapari';
+  padding-left: 2vw;
+}
+
+.portfolioWrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13vw;
+  flex-shrink: 1;
+}
+
+.portfolioVectors img{
+  width: 25vw;
+}
+
+.topleft4{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-top: 2vw;
+  white-space: nowrap;
+  padding-left: 2vw;
+}
+
+.bottomleft4{
+  grid-column: 1/2;
+  grid-row: 2/2;
+  font-size: 2vh;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  padding-left: 2vw;
+  padding-bottom: 2vw;
+}
+
+.bottomright4{
+  grid-column: 2/2;
+  grid-row: 2/2;
+  font-size: 2vh;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  padding-bottom: 2vw;
+  padding-right: 2vw;
+}
+
+.topright4{
+  grid-column: 2/2;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: right;
+  padding-right: 2vw;
+  padding-top: 2vw;
+  
+}
+
+.topright4 img{
+  
+  height: 4vh;
+}
+
+.toplefttext{
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: 'Machina';
+}
+
+.processText{
+  font-family: 'Yapari';
+  font-size: 5vh;
+  padding-left: 2vw;
+}
+
+.vector6{
+  height: 15vh;
+}
+
+.ProcessWrapper{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 5vw;
+}
+
+.stepWrapper{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Machina';
+}
+
+.number{
+  font-weight: bold;
+  font-size: 4vh;
+  font-family: 'Machina';
+  padding-left: 2vw;
+  padding-top: 2vw;
+}
+
+.text{
+  font-size: 2vh;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  padding-right: 2vw;
+}
+
+.contact40Text{
+  font-family: 'Yapari';
+  font-size: 5vh;
+  padding-left: 2vw;
+}
+
+.contact40Wrapper{
+  display: flex;
+flex-direction: row;
+align-items: center;
+gap: 3vw;
+
+}
+
+.vector7{
+  height: 15vh;
 }
 
 .contactWrapper{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border-left: 1px solid rgb(32, 30, 30);
+  flex-direction: column;
+  gap: 1vh;
 }
 
-.nameWrapper{
+.linkWrapper1{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 20vw;
-  padding-left: 3vw;
+  flex-direction: column;
+  padding-left: 2vw;
+  gap: 5vh;
+  font-family: 'Machina';
 }
 
-.contact{
-  padding: 4.05vw
+.title{
+  font-weight: bold;
+  font-size: 3vh;
+  padding-left: 2vw;
+  font-family: 'Machina';
 }
-/*.outline{
+
+.formwrap{
   display: flex;
-  flex-direction: row;
-  border-color: rgb(32, 30, 30);
-  border: 1px;
-  border-style: solid;
-  height: 10vh;
-  width: 100vw;
+  position: relative;
+  z-index: 9999999;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.emailname{
+  width: 30vw;
+  border: 1px solid black;
   border-top: none;
-}*/
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  outline: none;
+  font-family: 'Machina';
+}
 
-.sec1Wrapper{
+.email{
+  width: 30vw;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  outline: none;
+  font-family: 'Machina';
+}
+
+.emailmessage{
+  width: 30vw;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  outline: none;
+  font-family: 'Machina';
+}
+
+.scroll{
   display: flex;
-  flex-direction: row;
-  border-bottom: 1px solid rgb(32, 30, 30);
-  height: 80vh;
+  position: relative;
+  z-index: 9999999;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.scrollup{
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
-.empty2{
-border-right: 1px solid rgb(32, 30, 30);
+
+::-webkit-input-placeholder{
+  color: black;
 }
-/*
-.empty3{
-  border-left: 1px solid rgb(32, 30, 30); }
-  */
 
-  .wrap1{
-    display: flex;
-    flex-direction: column;
-    height: 41.8vh;
-    justify-content: center;
-    align-items: center;
-  }
+.submit{
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 4vh;
+  width: 6vw;
+  font-family: 'Machina';
+}
 
-  .wrap2{
-    width: 50.2vw;
-    display: flex;
-    flex-direction: row;
-  }
+.submit:active {
+  background: transparent;
+  -webkit-box-shadow: inset 0px 0px 5px #606060;
+     -moz-box-shadow: inset 0px 0px 5px #606060;
+          box-shadow: inset 0px 0px 5px #606060;
+   outline: none;
+}
 
-  .wrap3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
+.uparrow{
+  height: 10vh;
+}
 
-
-  .wrap4{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .box1{
-    font-size: 5vw;
-    border-bottom:  1px solid rgb(32, 30, 30);
-    width: 40vw;
-    text-align: center;
-
-  }
-
-  .box2{
-    font-size: 5vw;
-    border-bottom:  1px solid rgb(32, 30, 30);
-    width: 40vw;
-    text-align: center;
-
-
-  }
-
-  .box4{
-    border-left:  1px solid rgb(32, 30, 30);
-  }
-
-  .box3{
-    text-align: center;
-    font-size: 5vw;
-    width: 40vw;
-  }
-  
-  .box4{
-    border-right:  1px solid rgb(32, 30, 30);
-    width: 10.1vw;
-    height: 42vh;
-  }
-
-  .box6{
-    border-top: 1px solid rgb(32, 30, 30);
-    border-right: 1px solid rgb(32, 30, 30);
-    height: 38.2vh;
-  }
-
-  .wrap0{
-    display: flex;
-    flex-direction: column;
-    
-  }
-
-  .vectors{
-    width: 11.9vw;
-  }
-  
-
-@media screen and (max-width: 480px) {
-
- 
-  .nameWrapper{
-    padding-right: none;
-    padding-left: none;
-  }
-  
-  .name{
-    font-size: 2vw;
-  }
-  
+html{
+  scroll-behavior: smooth;
 }
