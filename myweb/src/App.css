@@ -18,7 +18,6 @@
   src: local("Machina"), url(./fonts/Machina.otf) format("opentype");
 }
 
-
 @font-face {
   font-family: "Opiated";
   src: local("Opiated"), url(./fonts/opiated.ttf) format("truetype");
@@ -125,29 +124,53 @@
 .three {
   background: hsla(44, 40%, 58%, 1);
 
-background: linear-gradient(90deg, hsla(44, 40%, 58%, 1) 0%, hsla(23, 100%, 25%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(44, 40%, 58%, 1) 0%,
+    hsla(23, 100%, 25%, 1) 100%
+  );
 
-background: -moz-linear-gradient(90deg, hsla(44, 40%, 58%, 1) 0%, hsla(23, 100%, 25%, 1) 100%);
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(44, 40%, 58%, 1) 0%,
+    hsla(23, 100%, 25%, 1) 100%
+  );
 
-background: -webkit-linear-gradient(90deg, hsla(44, 40%, 58%, 1) 0%, hsla(23, 100%, 25%, 1) 100%);
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(44, 40%, 58%, 1) 0%,
+    hsla(23, 100%, 25%, 1) 100%
+  );
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BFA869", endColorstr="#803100", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BFA869", endColorstr="#803100", GradientType=1 );
 
   height: 100vh;
 }
 
-.four{
+.four {
   background: hsla(0, 0%, 77%, 1);
 
-background: linear-gradient(90deg, hsla(0, 0%, 77%, 1) 0%, hsla(44, 40%, 58%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 77%, 1) 0%,
+    hsla(44, 40%, 58%, 1) 100%
+  );
 
-background: -moz-linear-gradient(90deg, hsla(0, 0%, 77%, 1) 0%, hsla(44, 40%, 58%, 1) 100%);
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(0, 0%, 77%, 1) 0%,
+    hsla(44, 40%, 58%, 1) 100%
+  );
 
-background: -webkit-linear-gradient(90deg, hsla(0, 0%, 77%, 1) 0%, hsla(44, 40%, 58%, 1) 100%);
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(0, 0%, 77%, 1) 0%,
+    hsla(44, 40%, 58%, 1) 100%
+  );
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C4C4C4", endColorstr="#BFA869", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C4C4C4", endColorstr="#BFA869", GradientType=1 );
 
-height: 100vh;
+  height: 100vh;
 }
 .App-header {
   position: fixed;
@@ -250,7 +273,7 @@ height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
 .Empty2 {
@@ -399,7 +422,7 @@ height: 100vh;
   padding-left: 2vw;
   flex-wrap: wrap;
   overflow: hidden;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
 .Text8 {
@@ -447,7 +470,8 @@ height: 100vh;
   height: 140vh;
 }
 
-.mobilework {  display: grid;
+.mobilework {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
@@ -467,22 +491,24 @@ height: 100vh;
     ". . . . . . . . . . . . . ."
     ". . . . . . . . . . . . . ."
     ". . . . . . . . . . . . . .";
-    display: none;
-    height: 155.8vh;
+  display: none;
+  height: 155.8vh;
 }
 
-.mobilestep1 { grid-area: mobilestep1;
-border: 1px solid black;
-}
-
-.mobilestep2 { grid-area: mobilestep2;
+.mobilestep1 {
+  grid-area: mobilestep1;
   border: 1px solid black;
 }
 
-.mobilestep3 { grid-area: mobilestep3;
+.mobilestep2 {
+  grid-area: mobilestep2;
   border: 1px solid black;
 }
 
+.mobilestep3 {
+  grid-area: mobilestep3;
+  border: 1px solid black;
+}
 
 .Empty5111 {
   grid-area: Empty5111;
@@ -515,7 +541,7 @@ border: 1px solid black;
   grid-template-rows: repeat(2, 1fr);
   flex-wrap: wrap;
   overflow: hidden;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
 .Box3 {
@@ -529,7 +555,7 @@ border: 1px solid black;
   grid-template-rows: repeat(2, 1fr);
   flex-wrap: wrap;
   overflow: hidden;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
 .Box2 {
@@ -541,7 +567,7 @@ border: 1px solid black;
   grid-template-rows: repeat(2, 1fr);
   flex-wrap: wrap;
   overflow: hidden;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
 .Box4 {
@@ -554,7 +580,7 @@ border: 1px solid black;
   grid-template-rows: repeat(2, 1fr);
   flex-wrap: wrap;
   overflow: hidden;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
 .container3 {
@@ -581,7 +607,8 @@ border: 1px solid black;
   height: 80vh;
 }
 
-.container44 {  display: grid;
+.container44 {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
@@ -601,54 +628,54 @@ border: 1px solid black;
     ". . . . . . . . . . . . . ."
     ". . . . . . . . . . . . . ."
     ". . . . . . . . . . . . . .";
-    height: 140vh;
+  height: 140vh;
 }
 
-.Box11 { grid-area: Box11;
+.Box11 {
+  grid-area: Box11;
   border: 1px solid black;
   border-bottom: none;
- }
-
-.Box12 { grid-area: Box12;
-  border: 1px solid black;
-  border-bottom: none;
-
- }
-
-.Box13 { grid-area: Box13;
-  border: 1px solid black;
-  border-bottom: none;
-
- }
-
-.Box14 { grid-area: Box14; 
-border: 1px solid black;
-border-bottom: none;
 }
 
-.Empty30 { grid-area: Empty30;
+.Box12 {
+  grid-area: Box12;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.Box13 {
+  grid-area: Box13;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.Box14 {
+  grid-area: Box14;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.Empty30 {
+  grid-area: Empty30;
   border: 1px solid black;
   border-right: none;
   border-left: none;
- }
+}
 
-.Contact40 { grid-area: Contact40;
+.Contact40 {
+  grid-area: Contact40;
   border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
-  
- }
+}
 
-.Empty40 { grid-area: Empty40;
+.Empty40 {
+  grid-area: Empty40;
   border: 1px solid black;
   border-right: none;
   border-left: none;
- }
-
-
-
-
+}
 
 .Text13 {
   grid-area: Text13;
@@ -705,8 +732,6 @@ border-bottom: none;
   justify-content: center;
   align-items: center;
 }
-
-
 
 .Empty12 {
   grid-area: Empty12;
@@ -905,8 +930,8 @@ border-bottom: none;
   border: 1px solid black;
 }
 
-
-.mobile3 {  display: grid;
+.mobile3 {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
@@ -926,64 +951,98 @@ border-bottom: none;
     ". . . . . . . . . . . . . ."
     ". . . . . . . . . . . . . ."
     ". . . . . . . . . . . . . .";
-    display: none;
-    height: 140vh;
+  display: none;
+  height: 140vh;
 }
 
-.mobileempty1 { grid-area: mobileempty1;
-border: 1px solid black; }
-
-.mobileempty2 { grid-area: mobileempty2; }
-
-.mobiletext1 { grid-area: mobiletext1; }
-
-.mobiletext2 { grid-area: mobiletext2; }
-
-.mobiletitle2 { grid-area: mobiletitle2;
-display: flex;
-justify-content: center;
-align-items: center; }
-
-.mobileempty3 { grid-area: mobileempty3; }
-
-.mobileempty4 { grid-area: mobileempty4; }
-
-.mobileempty1 { grid-area: mobileempty1;
-border: 1px solid black; }
-
-.mobiletitle { grid-area: mobiletitle;
+.mobileempty1 {
+  grid-area: mobileempty1;
   border: 1px solid black;
-display: flex;
-align-items: center;
-justify-content: center; }
+}
 
-.mobileempty2 { grid-area: mobileempty2; 
-  border: 1px solid black; }
+.mobileempty2 {
+  grid-area: mobileempty2;
+}
 
-.mobiletext1 { grid-area: mobiletext1;
-  border: 1px solid black; 
-display: flex;
-flex-direction: row; }
+.mobiletext1 {
+  grid-area: mobiletext1;
+}
 
-.mobiletext2 { grid-area: mobiletext2;
+.mobiletext2 {
+  grid-area: mobiletext2;
+}
+
+.mobiletitle2 {
+  grid-area: mobiletitle2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileempty3 {
+  grid-area: mobileempty3;
+}
+
+.mobileempty4 {
+  grid-area: mobileempty4;
+}
+
+.mobileempty1 {
+  grid-area: mobileempty1;
+  border: 1px solid black;
+}
+
+.mobiletitle {
+  grid-area: mobiletitle;
   border: 1px solid black;
   display: flex;
-  flex-direction: row;   }
+  align-items: center;
+  justify-content: center;
+}
 
-.mobiletext3 { grid-area: mobiletext3;
-  border: 1px solid black;  }
+.mobileempty2 {
+  grid-area: mobileempty2;
+  border: 1px solid black;
+}
 
-.mobiletext4 { grid-area: mobiletext4;
-  border: 1px solid black;  }
+.mobiletext1 {
+  grid-area: mobiletext1;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
 
-.mobileempty3 { grid-area: mobileempty3;
-  border: 1px solid black;  }
+.mobiletext2 {
+  grid-area: mobiletext2;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
 
-.mobiletitle2 { grid-area: mobiletitle2;
-  border: 1px solid black;  }
+.mobiletext3 {
+  grid-area: mobiletext3;
+  border: 1px solid black;
+}
 
-.mobileempty4 { grid-area: mobileempty4;
-  border: 1px solid black;  }
+.mobiletext4 {
+  grid-area: mobiletext4;
+  border: 1px solid black;
+}
+
+.mobileempty3 {
+  grid-area: mobileempty3;
+  border: 1px solid black;
+}
+
+.mobiletitle2 {
+  grid-area: mobiletitle2;
+  border: 1px solid black;
+}
+
+.mobileempty4 {
+  grid-area: mobileempty4;
+  border: 1px solid black;
+}
 
 @media screen and (max-width: 480px) {
   .container4 {
@@ -1028,7 +1087,7 @@ flex-direction: row; }
 
   .Text1-5 {
     border-bottom: none;
-    font-family: 'Machina';
+    font-family: "Machina";
   }
   .Text1-6 {
     border-bottom: none;
@@ -1103,13 +1162,12 @@ flex-direction: row; }
     align-items: center;
     text-align: center;
     gap: 2vw;
-    
   }
 
   .choice4 {
     font-weight: bold;
     display: flex;
-    font-family: 'Machina';
+    font-family: "Machina";
     position: absolute;
     z-index: 9999999;
   }
@@ -1132,7 +1190,7 @@ flex-direction: row; }
     font-weight: bold;
     text-align: center;
     padding-bottom: 2vh;
-    font-family: 'Machina';
+    font-family: "Machina";
   }
 
   .vector4 {
@@ -1151,248 +1209,242 @@ flex-direction: row; }
     padding-right: 4vw;
   }
 
-  .container44{
+  .container44 {
     display: none;
   }
 
-  .container7{
+  .container7 {
     display: grid;
   }
 
-  .mobile3{
+  .mobile3 {
     display: grid;
   }
 
-  .four{
+  .four {
     height: 120vh;
   }
 
-  .mobileportfoliotext{
-    font-family: 'Yapari';
+  .mobileportfoliotext {
+    font-family: "Yapari";
     font-size: 3vh;
   }
 
-  .mobileportfolioWrapper{
+  .mobileportfolioWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .mobileempty1{
+  .mobileempty1 {
     border-left: none;
     border-right: none;
   }
 
-  .mobileempty2{
+  .mobileempty2 {
     border-right: none;
     border-left: none;
   }
 
-  .mobiletitle{
+  .mobiletitle {
     border-bottom: none;
   }
 
-  .mobiletext1{
+  .mobiletext1 {
     border-bottom: none;
   }
 
-  .mobiletext2{
+  .mobiletext2 {
     border-bottom: none;
   }
 
-  .mobileempty3{
+  .mobileempty3 {
     border-left: none;
     border-right: none;
   }
 
-  .mobileempty4{
+  .mobileempty4 {
     border-left: none;
     border-right: none;
   }
 
-  .mobileprocesstext{
-    font-family: 'Yapari';
+  .mobileprocesstext {
+    font-family: "Yapari";
     font-size: 3vh;
     text-align: center;
   }
 
-  .mobileleft{
+  .mobileleft {
     display: flex;
     flex-direction: column;
     gap: 7vh;
     padding-left: 3vw;
     padding-top: 2vh;
-    font-family: 'Machina';
+    font-family: "Machina";
   }
 
-  .mobileright{
+  .mobileright {
     display: flex;
     flex-direction: column;
     gap: 20vh;
-    padding-top: .5vh;
+    padding-top: 0.5vh;
   }
 
-  .mobileimg{
+  .mobileimg {
     padding-top: 2vh;
     height: 2.5vh;
     width: 2.5vh;
     padding-left: 3vw;
   }
 
-  .mobileyear{
-    font-family: 'Machina';
+  .mobileyear {
+    font-family: "Machina";
     padding-right: 3vw;
   }
 
-  .porttitle{
+  .porttitle {
     font-weight: normal;
     font-size: 3vh;
-    font-family: 'Machina';
+    font-family: "Machina";
   }
 
-
-  .choice4{
+  .choice4 {
     position: relative;
   }
-  
-  .contacttextmobile{
-    font-family: 'Yapari';
+
+  .contacttextmobile {
+    font-family: "Yapari";
     font-size: 3vh;
   }
 
-  .Text1-11{
+  .Text1-11 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-
-  .Text1-13{
+  .Text1-13 {
     display: flex;
     justify-content: center;
   }
-  .formwrap1{
+  .formwrap1 {
     align-items: center;
     justify-content: center;
     display: flex;
-position: relative;
-z-index: 9999999;
+    position: relative;
+    z-index: 9999999;
   }
 
-  .form{
+  .form {
     gap: 5vh;
   }
 
-  .emailname1{
+  .emailname1 {
     width: 50vw;
     height: 5vh;
-border: 1px solid black;
-border-top: none;
-border-left: none;
-border-right: none;
-background-color: transparent;
-outline: none;
-font-family: 'Machina';
-  }
-
-  .email1{
-    width: 50vw;
-    height: 5vh;
-border: 1px solid black;
-border-top: none;
-border-left: none;
-border-right: none;
-background-color: transparent;
-outline: none;
-font-family: 'Machina';
-  }
-
-  .emailmessage1{
-    width: 50vw;
-    height: 5vh;
-border: 1px solid black;
-border-top: none;
-border-left: none;
-border-right: none;
-background-color: transparent;
-outline: none;
-font-family: 'Machina';
-  }
-
-  .submit1{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     background-color: transparent;
-border: 1px solid black;
-border-radius: 3px;
-height: 4vh;
-width: 20vw;
-color: black;
-font-family: 'Machina';
-font-weight: normal;
+    outline: none;
+    font-family: "Machina";
   }
 
-  .form1{
+  .email1 {
+    width: 50vw;
+    height: 5vh;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    outline: none;
+    font-family: "Machina";
+  }
+
+  .emailmessage1 {
+    width: 50vw;
+    height: 5vh;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    outline: none;
+    font-family: "Machina";
+  }
+
+  .submit1 {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 4vh;
+    width: 20vw;
+    color: black;
+    font-family: "Machina";
+    font-weight: normal;
+  }
+
+  .form1 {
     display: flex;
-flex-direction: column;
-gap: 5vh;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
   }
 
-  .mobilecontacttitle{
+  .mobilecontacttitle {
     font-weight: bold;
     font-size: 2.5vh;
     text-align: center;
   }
 
-  .mobilecontactwrapper1{
+  .mobilecontactwrapper1 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .Text1-12{
+  .Text1-12 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Machina';
+    font-family: "Machina";
   }
 
-  .mobilework{
+  .mobilework {
     display: grid;
   }
 
-  .mobilestep1{
-    border-top: none;
-    
-  }
-
-  .mobilestep2{
+  .mobilestep1 {
     border-top: none;
   }
 
-  .mobilestep3{
+  .mobilestep2 {
+    border-top: none;
+  }
+
+  .mobilestep3 {
     border-top: none;
     border-bottom: none;
   }
 
-  .step1wrapper{
+  .step1wrapper {
     display: flex;
     flex-direction: column;
     padding-top: 2vh;
     padding-left: 1vh;
     padding-right: 1vh;
     gap: 2vh;
-    font-family: 'Machina';
-    
+    font-family: "Machina";
   }
 
-  .step1mobile{
+  .step1mobile {
     font-weight: bold;
     font-size: 2.5vh;
-    font-family: 'Machina';
-
+    font-family: "Machina";
   }
-
 }
 
 .navWrapper {
@@ -1400,7 +1452,7 @@ align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 5vw;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
 .name {
@@ -1431,7 +1483,7 @@ align-items: center;
   text-align: left;
   font-size: 2vh;
   font-weight: bold;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 .Text4Wrapper2 {
   display: flex;
@@ -1466,7 +1518,7 @@ align-items: center;
   display: flex;
   flex-direction: row;
   gap: 4vw;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
 .contactText {
@@ -1503,7 +1555,7 @@ align-items: center;
 
 .text7text {
   font-weight: bold;
-  font-family: 'Yapari';
+  font-family: "Yapari";
   font-size: 5vh;
   padding-top: 4vh;
 }
@@ -1520,14 +1572,14 @@ a {
   z-index: 9999999;
 }
 
-.portfolioText{
+.portfolioText {
   font-weight: bold;
   font-size: 5vh;
-  font-family: 'Yapari';
+  font-family: "Yapari";
   padding-left: 2vw;
 }
 
-.portfolioWrapper{
+.portfolioWrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1535,11 +1587,11 @@ a {
   flex-shrink: 1;
 }
 
-.portfolioVectors img{
+.portfolioVectors img {
   width: 25vw;
 }
 
-.topleft4{
+.topleft4 {
   grid-column: 1/2;
   grid-row: 1/2;
   display: flex;
@@ -1550,7 +1602,7 @@ a {
   padding-left: 2vw;
 }
 
-.bottomleft4{
+.bottomleft4 {
   grid-column: 1/2;
   grid-row: 2/2;
   font-size: 2vh;
@@ -1561,7 +1613,7 @@ a {
   padding-bottom: 2vw;
 }
 
-.bottomright4{
+.bottomright4 {
   grid-column: 2/2;
   grid-row: 2/2;
   font-size: 2vh;
@@ -1572,116 +1624,113 @@ a {
   padding-right: 2vw;
 }
 
-.topright4{
+.topright4 {
   grid-column: 2/2;
   grid-row: 1/2;
   display: flex;
   justify-content: right;
   padding-right: 2vw;
   padding-top: 2vw;
-  
 }
 
-.topright4 img{
-  
+.topright4 img {
   height: 4vh;
 }
 
-.toplefttext{
+.toplefttext {
   font-size: 4vh;
   font-weight: bold;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
-.processText{
-  font-family: 'Yapari';
+.processText {
+  font-family: "Yapari";
   font-size: 5vh;
   padding-left: 2vw;
 }
 
-.vector6{
+.vector6 {
   height: 15vh;
 }
 
-.ProcessWrapper{
-display: flex;
-flex-direction: row;
-align-items: center;
-gap: 5vw;
+.ProcessWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5vw;
 }
 
-.stepWrapper{
+.stepWrapper {
   display: flex;
   flex-direction: column;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
-.number{
+.number {
   font-weight: bold;
   font-size: 4vh;
-  font-family: 'Machina';
+  font-family: "Machina";
   padding-left: 2vw;
   padding-top: 2vw;
 }
 
-.text{
+.text {
   font-size: 2vh;
   padding-left: 2vw;
   padding-top: 1vw;
   padding-right: 2vw;
 }
 
-.contact40Text{
-  font-family: 'Yapari';
+.contact40Text {
+  font-family: "Yapari";
   font-size: 5vh;
   padding-left: 2vw;
 }
 
-.contact40Wrapper{
+.contact40Wrapper {
   display: flex;
-flex-direction: row;
-align-items: center;
-gap: 3vw;
-
+  flex-direction: row;
+  align-items: center;
+  gap: 3vw;
 }
 
-.vector7{
+.vector7 {
   height: 15vh;
 }
 
-.contactWrapper{
+.contactWrapper {
   display: flex;
   flex-direction: column;
   gap: 1vh;
 }
 
-.linkWrapper1{
+.linkWrapper1 {
   display: flex;
   flex-direction: column;
   padding-left: 2vw;
   gap: 5vh;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
-.title{
+.title {
   font-weight: bold;
   font-size: 3vh;
   padding-left: 2vw;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
-.formwrap{
+.formwrap {
   display: flex;
   position: relative;
   z-index: 9999999;
 }
-.form{
+.form {
   display: flex;
   flex-direction: column;
   gap: 10vh;
 }
 
-.emailname{
+.emailname {
   width: 30vw;
   border: 1px solid black;
   border-top: none;
@@ -1689,10 +1738,10 @@ gap: 3vw;
   border-right: none;
   background-color: transparent;
   outline: none;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
-.email{
+.email {
   width: 30vw;
   border: 1px solid black;
   border-top: none;
@@ -1700,10 +1749,10 @@ gap: 3vw;
   border-right: none;
   background-color: transparent;
   outline: none;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
-.emailmessage{
+.emailmessage {
   width: 30vw;
   border: 1px solid black;
   border-top: none;
@@ -1711,10 +1760,10 @@ gap: 3vw;
   border-right: none;
   background-color: transparent;
   outline: none;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
-.scroll{
+.scroll {
   display: flex;
   position: relative;
   z-index: 9999999;
@@ -1723,37 +1772,37 @@ gap: 3vw;
   outline: none;
 }
 
-.scrollup{
+.scrollup {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
   color: black;
 }
 
-.submit{
+.submit {
   background-color: transparent;
   border: 1px solid black;
   border-radius: 3px;
   height: 4vh;
   width: 6vw;
-  font-family: 'Machina';
+  font-family: "Machina";
 }
 
 .submit:active {
   background: transparent;
   -webkit-box-shadow: inset 0px 0px 5px #606060;
-     -moz-box-shadow: inset 0px 0px 5px #606060;
-          box-shadow: inset 0px 0px 5px #606060;
-   outline: none;
+  -moz-box-shadow: inset 0px 0px 5px #606060;
+  box-shadow: inset 0px 0px 5px #606060;
+  outline: none;
 }
 
-.uparrow{
+.uparrow {
   height: 10vh;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
